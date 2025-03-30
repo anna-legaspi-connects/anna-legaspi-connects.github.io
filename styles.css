@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f5f1;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.tile {
+  background-color: #fff;
+  border: none;
+  position: relative;
+  padding-bottom: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tile:hover {
+  transform: scale(1.02);
+  z-index: 2;
+}
+
+.tile img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.tile:hover .overlay {
+  opacity: 1;
+}
+
+/* Show 'Sold' instead of 'Available' when marked */
+.tile.sold .overlay::before {
+  content: 'Sold';
+}
+
+.tile.sold .overlay {
+  color: #ffffff;
+}
+
+.tile.sold .overlay::before {
+  content: 'Sold';
+}
+
+.tile.sold:hover .overlay {
+  opacity: 1;
+}
+
+/* Hide default text inside overlay if tile is sold */
+.tile.sold .overlay {
+  font-size: 0;
+}
+
+.tile.sold .overlay::before {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
