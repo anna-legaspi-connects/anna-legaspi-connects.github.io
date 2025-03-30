@@ -81,7 +81,7 @@ h1 {
   color: #ffffff;
 }
 
-/* Hide text content for sold tiles by default */
+/* Hide default text inside overlay if tile is sold */
 .tile.sold .overlay {
   font-size: 0;
 }
@@ -97,17 +97,24 @@ h1 {
   opacity: 1;
 }
 
-/* ✅ Make overlays always visible on mobile */
+/* Ensure overlay is visible on mobile */
 @media (hover: none) and (pointer: coarse) {
-  .tile .overlay,
-  .tile:hover .overlay,
-  .tile.sold .overlay {
+  .tile .overlay {
     opacity: 1 !important;
     visibility: visible !important;
     font-size: 16px !important;
   }
 
+  /* Keep 'Sold' content hidden on mobile but show overlay */
   .tile.sold .overlay {
     font-size: 0 !important;
+  }
+
+  .tile.sold .overlay::before {
+    content: 'Sold';
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
   }
 }
