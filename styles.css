@@ -97,24 +97,9 @@ h1 {
   opacity: 1;
 }
 
-/* Ensure overlay is visible on mobile */
+/* On mobile devices, remove the overlay entirely */
 @media (hover: none) and (pointer: coarse) {
   .tile .overlay {
-    opacity: 1 !important;
-    visibility: visible !important;
-    font-size: 16px !important;
-  }
-
-  /* Keep 'Sold' content hidden on mobile but show overlay */
-  .tile.sold .overlay {
-    font-size: 0 !important;
-  }
-
-  .tile.sold .overlay::before {
-    content: 'Sold';
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    text-align: center;
+    display: none !important;
   }
 }
