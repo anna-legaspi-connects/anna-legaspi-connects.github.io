@@ -100,3 +100,11 @@ h1 {
   letter-spacing: 0.5px;
   text-align: center;
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .tile .overlay {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
