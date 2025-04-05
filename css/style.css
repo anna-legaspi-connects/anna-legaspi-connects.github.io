@@ -28,7 +28,7 @@ h2 {
 }
 
 h1, h2, h3 {
-  font-family: "Calibri", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 .hero h1 {
@@ -104,6 +104,7 @@ ul {
 
 .navbar a {
   text-decoration: none;
+  font-family: 'Calibri', sans-serif;
   color: #ffffff;
   font-weight: 600;
   line-height: 1;
