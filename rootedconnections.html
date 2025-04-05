@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rooted Connections</title>
+  <link rel="stylesheet" href="css/rc-styles.css" />
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div style="
+  position: sticky;
+  top: 0;
+  background: #f8f5f1;
+  padding: 10px 0;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+">
+  <div style="
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 14px;
+    font-weight: 500;
+  ">
+    <a href='https://annalegaspiart.my.canva.site/#about-anna' style='color: #1f1f1f; text-decoration: none;'>About Anna</a>
+    <a href='https://annalegaspiart.my.canva.site/#projects' style='color: #1f1f1f; text-decoration: none;'>Projects</a>
+    <a href='https://annalegaspiart.my.canva.site/#connect' style='color: #1f1f1f; text-decoration: none;'>Connect</a>
+  </div>
+</div>
+
+  
+  <h1>Rooted Connections</h1>
+  <p style="max-width: 980px; margin: 0 auto 30px; padding: 0 20px; font-size: 16px; line-height: 1.6; color: #1f1f1f; text-align: left;">
+    Each tile is part of a larger story — a living masterpiece of connection. Whether you’re just exploring or already hold a piece, you’re already woven into the journey. 
+    And if you decide to make one yours, you’ll carry a thread that links you to every other collector in togetherness.
+  </p>
+
+  <div class="grid">
+    
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 1)', 'Description for Flowers (Tile 1).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 1">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 2)', 'Description for Flowers (Tile 2).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 2">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 3)', 'Description for Flowers (Tile 3).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 3">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 4)', 'Description for Flowers (Tile 4).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 4">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 5)', 'Description for Flowers (Tile 5).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 5">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 6)', 'Description for Flowers (Tile 6).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 6">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 7)', 'Description for Flowers (Tile 7).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 7">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 8)', 'Description for Flowers (Tile 8).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 8">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 9)', 'Description for Leaves (Tile 9).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 9">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 10)', 'Description for Leaves (Tile 10).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 10">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 11)', 'Description for Leaves (Tile 11).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 11">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 12)', 'Description for Leaves (Tile 12).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 12">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 13)', 'Description for Leaves (Tile 13).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 13">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 14)', 'Description for Leaves (Tile 14).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 14">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 15)', 'Description for Leaves (Tile 15).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 15">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 16)', 'Description for Leaves (Tile 16).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 16">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 17)', 'Description for Seeds (Tile 17).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 17">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 18)', 'Description for Seeds (Tile 18).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 18">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 19)', 'Description for Seeds (Tile 19).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 19">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 20)', 'Description for Flowers (Tile 20).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 20">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 21)', 'Description for Flowers (Tile 21).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 21">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 22)', 'Description for Flowers (Tile 22).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 22">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 23)', 'Description for Leaves (Tile 23).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 23">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 24)', 'Description for Seeds (Tile 24).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 24">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile sold" onclick="openModal('placeholder.png', 'The Sun', 'The source of all life and energy. The heart of this piece. This will stay with the creator.', 'Anna Legaspi', 'Rugby, UK')">
+      <img src="placeholder.png" alt="Tile 25">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 26)', 'Description for Seeds (Tile 26).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 26">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 27)', 'Description for Flowers (Tile 27).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 27">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 28)', 'Description for Flowers (Tile 28).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 28">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 29)', 'Description for Flowers (Tile 29).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 29">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 30)', 'Description for Leaves (Tile 30).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 30">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 31)', 'Description for Seeds (Tile 31).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 31">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 32)', 'Description for Seeds (Tile 32).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 32">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Seeds (Tile 33)', 'Description for Seeds (Tile 33).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 33">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 34)', 'Description for Flowers (Tile 34).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 34">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 35)', 'Description for Flowers (Tile 35).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 35">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 36)', 'Description for Flowers (Tile 36).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 36">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 37)', 'Description for Leaves (Tile 37).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 37">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 38)', 'Description for Leaves (Tile 38).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 38">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 39)', 'Description for Leaves (Tile 39).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 39">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 40)', 'Description for Leaves (Tile 40).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 40">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 41)', 'Description for Leaves (Tile 41).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 41">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Leaves (Tile 42)', 'Description for Leaves (Tile 42).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 42">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 43)', 'Description for Flowers (Tile 43).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 43">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 44)', 'Description for Flowers (Tile 44).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 44">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 45)', 'Description for Flowers (Tile 45).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 45">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 46)', 'Description for Flowers (Tile 46).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 46">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 47)', 'Description for Flowers (Tile 47).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 47">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 48)', 'Description for Flowers (Tile 48).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 48">
+      <div class="overlay">Available</div>
+    </div>
+    <div class="tile" onclick="openModal('placeholder.png', 'Flowers (Tile 49)', 'Description for Flowers (Tile 49).', 'FOR SALE', 'TBD')">
+      <img src="placeholder.png" alt="Tile 49">
+      <div class="overlay">Available</div>
+    </div>
+  </div>
+  <div style="max-width: 980px; margin: 40px auto 20px; padding: 0 20px; text-align: left; font-size: 16px; line-height: 1.6; color: #1f1f1f;">
+    <p><strong>We want to honour each tile’s journey — and yours.</strong> If one of these pieces has found its way to you, let me know. You’re part of something whole now — your story is stitched into this one.  
+Welcome to our community.</p>
+    <p style="margin-top: 10px;">
+      <a href="https://YOUR_JOTFORM_LINK_HERE" target="_blank" style="color: #000; text-decoration: underline; font-weight: 500;">
+        Mark your place in the connection
+      </a>
+    </p>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#000000d9; z-index:10; align-items:center; justify-content:center; flex-direction:column;">
+    <span style="color:white; font-size:24px; position:absolute; top:20px; right:30px; cursor:pointer;" onclick="closeModal()">&times;</span>
+    <img id="modalImage" src="" alt="" style="max-width:90vw; max-height:70vh; box-shadow:0 0 10px #000;" />
+    <div id="modalDescription" style="color:white; margin-top:20px; max-width:600px; padding:0 20px; text-align:center;"></div>
+  </div>
+
+  <script>
+    function openModal(imageSrc, title, description, owner, location) {
+      document.getElementById('modalImage').src = imageSrc;
+
+      const infoHTML = `
+        <h2 style="margin: 10px 0 5px;">${title}</h2>
+        <p style="margin: 5px 0;">${description}</p>
+        <p style="margin: 5px 0;"><strong>Owner:</strong> ${owner}</p>
+        <p style="margin: 5px 0;"><strong>Location:</strong> ${location}</p>
+      `;
+
+      document.getElementById('modalDescription').innerHTML = infoHTML;
+      document.getElementById('modal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+  </script>
+
+<div style="max-width: 980px; margin: 40px auto 20px; padding: 0 20px;">
+  <p style="margin-top: 40px; font-size: 14px; text-align: left; color: #333;">
+    Let’s stay tangled in togetherness 🧶
+  </p>
+
+  <p style="margin-top: 10px; font-size: 12px; text-align: left; color: #999;">
+    Rooted Connections is an original art concept by Anna. Please don’t reproduce or imitate the artwork, structure, or idea without permission. 
+    This work is protected by copyright — but also, respect. Thank you.
+  </p>
+
+  <p style="font-size: 12px; text-align: left; color: #999;">
+    Anna Legaspi Art 🧶 • © 2025 All rights reserved.
+  </p>
+</div>
+
+  
+</body>
+</html>
