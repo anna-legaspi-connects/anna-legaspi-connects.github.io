@@ -51,9 +51,9 @@
     </div>
   </footer>
 
-  <!-- RSS Feed Script (Using rss2json) -->
+  <!-- RSS Feed Script (Using custom proxy) -->
   <script>
-    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://annalegaspiart.substack.com/feed')
+    fetch('https://annalegaspiart-feed.glitch.me')
       .then(response => response.json())
       .then(data => {
         const items = data.items.slice(0, 3);
@@ -63,7 +63,8 @@
           li.innerHTML = `<a href="${item.link}" target="_blank">${item.title}</a>`;
           list.appendChild(li);
         });
-      });
+      })
+      .catch(error => console.error('Error loading feed:', error));
   </script>
 
   <script src="js/menu.js" defer></script>
