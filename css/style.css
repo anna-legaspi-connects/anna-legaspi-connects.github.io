@@ -403,7 +403,7 @@ ul {
 
 .hero-subheading {
   font-family: 'Blacktear Script', Calibri, sans-serif;
-  font-size: 2rem; /* Bump this up from 1.4rem */
+  font-size: 2.2rem; !important;
   font-weight: normal;
   line-height: 1.4;
   margin: 10px 0 0;
