@@ -9,7 +9,7 @@ body {
 
 @font-face {
   font-family: 'Blacktear Script';
-  src: url('/fonts/heading-font.otf') format('opentype');
+  src: url('../fonts/heading-font.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
