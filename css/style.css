@@ -16,8 +16,8 @@ body {
 
 
 h1, h2, h3 {
-  font-family: 'Blacktear Script', "Calibri", "Arial Narrow", Arial, sans-serif;
-  font-weight: normal;
+  font-family: 'Blacktear Script', Calibri, sans-serif !important;
+  font-weight: normal !important;
 }
 
 
@@ -403,10 +403,10 @@ ul {
 }
 
 
-.hero-subheading {
-  font-family: 'Blacktear Script', Calibri, sans-serif;
-  font-size: 2.2rem; !important;
-  font-weight: normal;
+.light-heading {
+  font-family: 'Blacktear Script', Calibri, sans-serif !important;
+font-size: 2.2rem !important;
+  font-weight: normal !important;
   line-height: 1.4;
   margin: 10px 0 0;
   color: #ffffff;
