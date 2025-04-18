@@ -392,11 +392,14 @@ ul {
 
 
 .hero-tagline h1 {
-  font-size: 2rem; /* smaller text */
-  font-weight: 800;
+  font-family: 'Blacktear Script', Calibri, sans-serif;
+  font-size: 3.5rem;
+  font-weight: normal;
   margin: 0;
   color: #ffffff;
+  text-align: center;
 }
+
 
 .hero-subheading {
   font-size: 1.4rem;
