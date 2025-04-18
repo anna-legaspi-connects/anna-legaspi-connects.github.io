@@ -17,7 +17,9 @@ body {
 
 h1, h2, h3 {
   font-family: 'Blacktear Script', "Calibri", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
 }
+
 
 p, ul, li, .navbar a, .footer p {
   font-family: 'Calibri', sans-serif;
@@ -40,7 +42,7 @@ h2 {
 .light-heading {
   color: #1f1f1f;
   font-size: 2.4rem;
-  font-weight: 800;
+  font-weight: normal;
 }
 
 .hero h1 {
