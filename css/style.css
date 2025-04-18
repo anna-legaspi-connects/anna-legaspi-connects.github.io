@@ -9,12 +9,11 @@ body {
 
 @font-face {
   font-family: 'Blacktear Script';
-  src: url('../fonts/heading-font.woff2') format('woff2'),
-       url('../fonts/heading-font.woff') format('woff'),
-       url('../fonts/heading-font.otf') format('opentype');
+  src: url('/fonts/heading-font.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 
 h1, h2, h3 {
   font-family: 'Blacktear Script', "Calibri", "Arial Narrow", Arial, sans-serif;
