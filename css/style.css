@@ -45,7 +45,7 @@ h2 {
 
 .hero h1 {
   margin: 0;
-  font-family: "Blacktear Script", "Arial Narrow", Arial, sans-serif;
+  font-family: inherit;
   font-size: 3rem;
   font-weight: 700;
 }
