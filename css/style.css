@@ -637,3 +637,16 @@ ul {
 .subscribe-section h2 {
   color: #000000 !important; /* override the default white */
 }
+
+/* Fix the Subscribe heading color */
+#subscribe h2,
+.subscribe-section h2,
+.newsletter h2,
+#newsletter h2,
+#subscribe .light-heading,
+.subscribe-section .light-heading,
+.newsletter .light-heading,
+#newsletter .light-heading {
+  color: #000 !important;
+}
+
